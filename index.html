@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - PuhuStudios</title>
+    <meta name="description" content="Discover premium gaming experiences crafted with passion.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="logo-col">
+                <a href="index.html" class="logo" aria-label="Home">Puhu<span>Studios</span></a>
+            </div>
+            <div class="nav-col">
+                <button class="mobile-menu-btn" aria-label="Toggle menu" aria-expanded="false">
+                    <span class="hamburger"></span>
+                </button>
+                <nav class="nav-menu" aria-label="Main Navigation">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">ABOUT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="games.html" class="nav-link">GAMES</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero reveal">
+            <div class="hero-bg"></div>
+            <div class="container hero-content">
+                <h1 class="hero-title">Crafting <span>Extraordinary</span><br>Worlds</h1>
+                <p class="hero-subtitle">We build premium, immersive gaming experiences that connect millions of players
+                    globally. Join our universe.</p>
+                <a href="#about" class="btn btn-primary" aria-label="Learn more about our studio">Learn More</a>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="about section reveal">
+            <div class="container about-container">
+                <div class="about-text">
+                    <h2 class="section-title">ABOUT US</h2>
+                    <p class="section-desc">Born from a deep passion for play and creativity, PuhuStudios is an
+                        independent game development studio crafting immersive experiences that players truly connect
+                        with.</p>
+                    <p class="section-desc">We believe great games are more than mechanics — they are living worlds. By
+                        combining refined design, cutting-edge technology, and artistic excellence, we create games that
+                        feel timeless, engaging, and endlessly enjoyable.</p>
+
+                    <a href="games.html" class="btn btn-secondary mt-4">Discover Our Games</a>
+                </div>
+                <div class="about-image glass-card">
+                    <img src="images/about_us.png" alt="PuhuStudios Team" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Games Section -->
+        <section id="games" class="games section section-dark reveal">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">OUR GAMES</h2>
+                    <p class="section-subtitle mx-auto">From satisfying gameplay loops to rich visual
+                        identity, our titles are designed to deliver moments of joy, challenge, and discovery — again
+                        and again.</p>
+                </div>
+
+                <div class="games-grid">
+                    <div class="game-card glass-card">
+                        <div class="game-card-img">
+                            <img src="images/game_1.png" alt="BLOCKIGO promotional" loading="lazy">
+                        </div>
+                        <div class="game-card-content">
+                            <h3 class="game-title">BLOCKIGO</h3>
+                            <a href="games.html#game1" class="game-link">Discover <span class="arrow">→</span></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center mt-5">
+                    <a href="games.html" class="btn btn-primary">Explore Game</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-top">
+                <a href="index.html" class="logo footer-logo">Puhu<span>Studios</span></a>
+                <ul class="footer-nav">
+                    <li><a href="#about">ABOUT US</a></li>
+                    <li><a href="games.html">GAMES</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-divider"></div>
+
+            <div class="footer-bottom">
+                <div class="footer-bottom-left">
+                    <a href="mailto:info@puhustudios.com" class="footer-email">info@puhustudios.com</a>
+                    <span class="copyright">&copy; 2026 PuhuStudios. All rights reserved.</span>
+                </div>
+                <div class="footer-bottom-right">
+                    <a href="terms.html">Terms of Service</a>
+                    <span class="separator">|</span>
+                    <a href="privacy.html">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+
+</html>
